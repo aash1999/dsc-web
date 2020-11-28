@@ -1,0 +1,27 @@
+.middleContainer{
+  position: relative;
+}
+.collegeLogo ,.plusIcon, .dscLogo{
+  position: absolute;
+  width: 15vw;
+  z-index: 2;
+  top:25vh;
+}
+
+.collegeLogo{
+
+  left : 60vw;
+
+}
+.plusIcon{
+
+  left:40vw;
+
+}
+.dscLogo{
+  top:29vh;
+  left :20vw;
+
+
+
+}

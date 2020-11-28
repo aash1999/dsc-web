@@ -1,5 +1,6 @@
 import React from "react"
-import CustomNavbar from "./components/navbar.js"
+import CustomNavbar from "./components/navbar/navbar.js"
+import MiddleComponent from "./components/middlecomponent.js"
 
 function App() {
   return (

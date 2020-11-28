@@ -1,0 +1,48 @@
+*{
+  margin: 0px;
+  padding: 0px;
+
+}
+p{
+  color: white;
+  display: inline;
+  text-align: center;
+}
+.navbar-container{
+  position: fixed;
+  top:0px;
+  width: 100vw;
+  background-color: black;
+  padding: 5px 0px 5px 0px;
+}
+
+.logo-dsc{
+  height :6vh;
+
+}
+
+.image-container{
+  width : 40vw;
+  display: inline;
+}
+.links-container{
+  display: inline;
+  float: right;
+  margin-top: auto;
+  margin-bottom: auto;
+  text-align: center;
+  height: 6vh;
+}
+.link{
+  display: inline;
+  position: relative;
+  margin-left: 20px;
+  margin-right: 10px;
+  top:28%;
+
+
+}
+p:hover{
+  color: red;
+  cursor: pointer;
+}
