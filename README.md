@@ -1,4 +1,4 @@
-<pre>
+
 ## How to setup
 ```sh
 git clone https://github.com/aash1999/dsc-web.git
@@ -7,6 +7,7 @@ npm start
 ```
 
 ##file Setup
+<pre>
 dsc-web <br />
   |-public<br />
   |-src<br />
