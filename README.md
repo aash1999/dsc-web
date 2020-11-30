@@ -8,12 +8,12 @@ npm start
 
 ## file Setup
 ```bash
-dsc-web 
+dsc-web
   |-public
   |-src
     |-assets
-    |-img
-    |-svg
+     |-img
+     |-svg
     |-components
       |-component1
         |-component1.jsx
