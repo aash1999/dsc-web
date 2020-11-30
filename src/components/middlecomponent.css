@@ -15,6 +15,33 @@
   color : white;
   top:50%;
   left:50%;
-  margin-left: -24px;
+  margin-left: -64px;
+
+}
+@keyframes blinking {
+  0% {background-color: black;}
+  10% {background-color : white;}
+  20% {background-color: black;}
+  30% {background-color : #DB4437;}
+  40% {background-color: black;}
+  50% {background-color : #0F9D58;}
+  60% {background-color: black;}
+  70% {background-color : #F4B400;}
+  80% {background-color: black;}
+  90% {background-color : #4285F4;}
+  100% {background-color: black;}
+
+}
+.cursor-blink{
+
+  width: 10px;
+  height: 20px;
+  position: absolute;
+  bottom: 2%;
+  right: 3%;
+  background-color: white;
+  animation: blinking;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
 
 }

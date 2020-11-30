@@ -8,6 +8,7 @@ function MiddleComponent() {
   return (
     <div className="container-middle">
       <div className="title">Students Developer Club</div>
+      <div className="cursor-blink"></div>
     </div>
   );
 }
