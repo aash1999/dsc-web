@@ -6,8 +6,8 @@ cd dsc-web
 npm start
 ```
 
-##file Setup
-<pre>
+## file Setup
+```bash
 dsc-web <br />
   |-public<br />
   |-src<br />
@@ -19,3 +19,4 @@ dsc-web <br />
         |-component1.jsx<br />
         |-component1.class<br />
     |-App.js<br />
+```
