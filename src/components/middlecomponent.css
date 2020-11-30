@@ -1,27 +1,20 @@
-.middleContainer{
+
+.container-middle{
+  width : 100%;
+  height : 100vh;
+  margin: 0;
+  padding: 0px;
+  background-color: black;
   position: relative;
+  z-index: -1;
+
+
 }
-.collegeLogo ,.plusIcon, .dscLogo{
+.title{
   position: absolute;
-  width: 15vw;
-  z-index: 2;
-  top:25vh;
-}
-
-.collegeLogo{
-
-  left : 60vw;
-
-}
-.plusIcon{
-
-  left:40vw;
-
-}
-.dscLogo{
-  top:29vh;
-  left :20vw;
-
-
+  color : white;
+  top:50%;
+  left:50%;
+  margin-left: -24px;
 
 }
