@@ -7,7 +7,22 @@ import "./middlecomponent.css";
 function MiddleComponent() {
   return (
     <div className="container-middle">
-      <div className="title">Students Developer Club</div>
+      <div>
+        <div className="backgroundContainer">
+        <img className = "backgroundImg"src={background}/>
+        </div>
+        <div className="dscLogoContainer">
+          <img className="dscLogo" src={dscLogo} />
+        </div>
+        <div className="xContainer">
+          <p className="x">X</p>
+        </div>
+        <div className="iiitdmkLogoContainer">
+          <img className="iiitdmkLogo" src={collegeLogo} />
+        </div>
+      </div>
+
+      <div className="title">DSC IIITDM Kurnool </div>
       <div className="cursor-blink"></div>
     </div>
   );

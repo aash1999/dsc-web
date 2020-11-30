@@ -4,20 +4,90 @@
   height : 100vh;
   margin: 0;
   padding: 0px;
-  background-color: black;
+  background-color: #344557 ;
   position: relative;
   z-index: -1;
 
 
+
+}
+.backgroundImg{
+  position: absolute;
+  z-index: -2;
+  width: 100%;
+  height: 100vh;
+  opacity: 0.1;
 }
 .title{
   position: absolute;
-  color : white;
-  top:50%;
-  left:50%;
-  margin-left: -64px;
+  width: 50%;
+  height :17%;
+
 
 }
+
+.xContainer{
+  position: absolute;
+  top:37%;
+  left:49%;
+  width: 40px;
+
+
+}
+
+.x{
+  font-family: "Open Sans Condensed";
+  font-size: 3rem;
+}
+
+.dscLogoContainer,.iiitdmkLogoContainer{
+  position: absolute;
+  width: 30%;
+  height :17%;
+
+
+
+}
+.dscLogoContainer{
+  top:30%;
+  left: 22%;
+  padding-top: 20px;
+}
+.iiitdmkLogoContainer{
+  top:30%;
+  left:62%;
+  padding-bottom: 50px;
+
+}
+.iiitdmkLogo{
+  width: 45%;
+  opacity: 0.8;
+
+}
+
+.dscLogo{
+  width: 60%;
+}
+@import url("https://fonts.googleapis.com/css?family=Lato:300");
+
+.title{
+  color : white;
+  top:60%;
+  left:25%;
+  font-size: 3rem;
+  font-family: 'Lato ,Open Sans Condensed';
+  letter-spacing: 10px;
+  border-width: 3px;
+  border-style:solid;
+  width: auto;
+  padding: 2%;
+  border-radius: 4px;
+  border-color: #707070;
+
+
+}
+
+
 @keyframes blinking {
   0% {background-color: black;}
   10% {background-color : white;}
@@ -35,10 +105,10 @@
 .cursor-blink{
 
   width: 10px;
-  height: 20px;
+  height: 25px;
   position: absolute;
   bottom: 2%;
-  right: 3%;
+  right: 2%;
   background-color: white;
   animation: blinking;
   animation-duration: 5s;
