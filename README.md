@@ -6,14 +6,14 @@ npm start
 ```
 
 ##file Setup
-dsc-web
-  |-public
-  |-src
-    |-assets
-    |-img
-    |-svg
-    |-components
-      |-component1
-        |-component1.jsx
-        |-component1.class
-    |-App.js
+dsc-web <br />
+  |-public<br />
+  |-src<br />
+    |-assets<br />
+    |-img<br />
+    |-svg<br />
+    |-components<br />
+      |-component1<br />
+        |-component1.jsx<br />
+        |-component1.class<br />
+    |-App.js<br />
