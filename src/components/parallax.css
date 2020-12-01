@@ -84,9 +84,9 @@
 }
 .aboutUsTitle {
   position: absolute;
-  top: 35px;
-  font-size: 23rem;
-  
+  top: 9vh;
+  font-size: 25vw;
+
 }
 
 @import url("https://fonts.googleapis.com/css2?family=Inconsolata&display=swap");
@@ -95,9 +95,12 @@
   position: absolute;
   top: 70px;
   text-align: center;
-  font-size: 1.2rem;
+  font-size: 3vh;
   padding: 20px;
+  overflow: scroll;
   font-family: "Inconsolata", monospace;
+  width: 100%;
+  height: 40vh;
 }
 @keyframes blinking1 {
   50% {
@@ -110,11 +113,10 @@
 .cursor-blink-1 {
   width: 10px;
   height: 25px;
-  position: absolute;
-  left: 70.5%;
-  top: 81.2%;
   background-color: white;
   animation: blinking1;
   animation-duration: 1s;
   animation-iteration-count: infinite;
+  margin-left: auto;
+  margin-right: auto;
 }

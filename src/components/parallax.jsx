@@ -18,8 +18,7 @@ function SubComponents() {
             Also, we organize hackathons and open workshops which can give
             technical exact solutions to the problems of common people. Our
             motto is to help students in building skills to produce scalable
-            products and to help small businesses.
-            <div className="cursor-blink-1"></div>
+            products and to help small businesses.<span><div className="cursor-blink-1"></div></span>
           </div>
         </div>
       </div>
