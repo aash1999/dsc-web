@@ -9,7 +9,7 @@ const Example = (props) => {
   function CollapseElement() {
     if (window.screen.width >= 959 ) {
       return (
-        <div className="links-container">
+        <div className="links-container ">
           <div className="link">
             <p>Home</p>
           </div>
