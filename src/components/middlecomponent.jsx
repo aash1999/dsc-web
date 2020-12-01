@@ -23,7 +23,7 @@ function MiddleComponent() {
       </div>
 
       <div className="title">DSC IIITDM Kurnool </div>
-      <div className="cursor-blink"></div>
+      
     </div>
   );
 }

@@ -5,7 +5,7 @@
   margin: 0;
   padding: 0px;
   background-color: #344557 ;
-  position: fixed;
+  position: relative;
   z-index: -1;
 
 
@@ -85,34 +85,5 @@
   border-radius: 4px;
   border-color: #707070;
 
-
-}
-
-
-@keyframes blinking {
-  0% {background-color: black;}
-  10% {background-color : white;}
-  20% {background-color: black;}
-  30% {background-color : #DB4437;}
-  40% {background-color: black;}
-  50% {background-color : #0F9D58;}
-  60% {background-color: black;}
-  70% {background-color : #F4B400;}
-  80% {background-color: black;}
-  90% {background-color : #4285F4;}
-  100% {background-color: black;}
-
-}
-.cursor-blink{
-
-  width: 10px;
-  height: 25px;
-  position: absolute;
-  bottom: 2%;
-  right: 2%;
-  background-color: white;
-  animation: blinking;
-  animation-duration: 5s;
-  animation-iteration-count: infinite;
 
 }
