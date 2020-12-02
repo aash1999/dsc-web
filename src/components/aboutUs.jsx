@@ -5,7 +5,7 @@ import "./aboutUs.css";
 function AboutUs() {
   return (
     <div className="mainContainer">
-      <Title title="About Us" />
+      <Title title="About Us"  />
       <div className="designContainer">
         <div className="topBar">
           <div className="circle"></div>

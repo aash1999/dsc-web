@@ -1,0 +1,93 @@
+
+.EventsCardContainer {
+  margin-top: 30px;
+  position: absolute;
+  z-index: 0;
+  width: 250px;
+  height: 50vh;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+  border-radius: 6px;
+  background-color: rgba(0, 0, 0, 0.3);
+  box-shadow: 10px 10px;
+  transition :all .5s ease-out;
+
+}
+.EventsCardContainer:hover{
+
+
+  z-index: 1;
+  margin-top :10px;
+
+
+
+}
+
+.EventsCardContainer:hover{
+  top:
+}
+.EventsCardImageContainer,
+.EventsCardImage {
+  position: absolute;
+  z-index: 0;
+  width: 100%;
+  height: 20vh;
+
+}
+.EventsCardImageContainer {
+
+}
+
+
+.EventsCardImage {
+  padding-left: 3px;
+}
+.EventsCardTitle {
+  position: absolute;
+  z-index: 0;
+  color: white;
+  width: 100%;
+  height: 4vh;
+  text-align: center;
+
+  top: 20vh;
+  font-family: "Inconsolata", monospace;
+  font-size: 1.3rem;
+  color: #DB4437;
+}
+.EventsCardDate ,.EventsCardDiscription,.EventsCardRegister{
+  position: absolute;
+  z-index: 0;
+  color: white;
+  width: 100%;
+  text-align: center;
+  font-family: "Inconsolata", monospace;
+
+
+}
+.EventsCardDate {
+
+  top: 24vh;
+  height: 4vh;
+  color: #F4B400;
+}
+.EventsCardDiscription {
+
+  top: 28vh;
+  height: 18vh;
+  overflow: scroll;
+  padding: 0px 5px 0px 5px;
+}
+.EventsCardRegister {
+
+  top: 46vh;
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 6px;
+  height: 4vh;
+  cursor: pointer;
+  color:#0F9D58;
+}
+.EventsCardRegister:hover{
+  color:#4285F4;
+}

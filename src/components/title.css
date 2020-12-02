@@ -1,6 +1,8 @@
 .subTitle {
   position: absolute;
-  top: 9vh;
+  top: 0%;
   font-size: 25vw;
+  margin-top: 0;
+  padding-top: 0;
 
 }
