@@ -14,8 +14,9 @@
   z-index: 0;
   top: 5%;
   margin-left: 50%;
-  border-radius: 30px;
-  border-style: solid;
+  border-radius: 10px;
+  border-right-style: solid;
+  border-left-style: solid;
   border-color: black;
   border-width: 1px;
   display: grid;
@@ -23,6 +24,7 @@
   overflow: scroll;
   justify-content: space-between;
   padding-bottom: 50px;
+  transform: perspective(800px) rotateX(30deg)  ;
 }
 .gridItem {
 
