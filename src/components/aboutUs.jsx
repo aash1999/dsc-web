@@ -1,10 +1,11 @@
 import React from "react";
-import "./parallax.css";
+import Title from "./title.jsx"
+import "./aboutUs.css";
 
-function SubComponents() {
+function AboutUs() {
   return (
     <div className="mainContainer">
-      <div className="aboutUsTitle">About Us</div>
+      <Title title="About Us" />
       <div className="designContainer">
         <div className="topBar">
           <div className="circle"></div>
@@ -25,4 +26,4 @@ function SubComponents() {
     </div>
   );
 }
-export default SubComponents;
+export default AboutUs;

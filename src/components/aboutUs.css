@@ -82,12 +82,6 @@
   left: 55px;
   background-color: #f4b400;
 }
-.aboutUsTitle {
-  position: absolute;
-  top: 9vh;
-  font-size: 25vw;
-
-}
 
 @import url("https://fonts.googleapis.com/css2?family=Inconsolata&display=swap");
 .content {

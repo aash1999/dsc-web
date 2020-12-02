@@ -36,7 +36,7 @@
 }
 
 .x{
-  font-family: "Open Sans Condensed";
+  font-family: "Inconsolata", monospace;;
   font-size: 3rem;
 }
 
@@ -76,7 +76,7 @@
   top:60%;
   left:25%;
   font-size: 3rem;
-  font-family: 'Lato ,Open Sans Condensed';
+  font-family: "Inconsolata", monospace;
   letter-spacing: 10px;
   border-width: 3px;
   border-style:solid;
