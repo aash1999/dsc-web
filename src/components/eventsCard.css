@@ -13,9 +13,13 @@
   box-shadow: 15px 15px;
   margin-bottom: 20px;
 
+  transition-duration: 0.2s;
+  transition-timing-function: linear;
+
 }
 .EventsCardContainer:hover{
   margin-top: 13vh;
+
 }
 
 
