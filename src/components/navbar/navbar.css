@@ -2,14 +2,7 @@
   margin: 0px;
   padding: 0px;
 }
-p {
-  color: white;
-  display: inline;
-  text-align: center;
-}
-p:hover {
-  color: #4285f4;
-}
+
 .navbar-container {
   position: fixed;
   top: 0px;
@@ -39,6 +32,8 @@ p:hover {
   margin-bottom: auto;
   text-align: center;
   height: 6vh;
+  margin-right: 2%;
+
 
 }
 .link , .signin {
@@ -49,6 +44,7 @@ p:hover {
   top: 28%;
   padding: 1vh;
   padding-bottom: 3.1vh;
+  color: white;
 }
 
 .link:hover {
@@ -56,6 +52,7 @@ p:hover {
   border-bottom-style: solid;
   border-bottom-color: #4285f4;
   cursor: pointer;
+  color: #4285f4;
 }
 
 
@@ -71,6 +68,7 @@ p:hover {
 .signin:hover {
   border-color: #f4b400;
   cursor: pointer;
+  color: #f4b400;
 
 }
 .signin p:hover{

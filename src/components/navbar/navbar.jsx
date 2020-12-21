@@ -11,22 +11,22 @@ const Example = (props) => {
       return (
         <div className="links-container ">
           <div className="link">
-            <p>Home</p>
+            Home
           </div>
           <div className="link">
-            <p>AboutUs</p>
+            AboutUs
           </div>
           <div className="link">
-            <p>Events</p>
+            Events
           </div>
           <div className="link">
-            <p>Projects</p>
+            Projects
           </div>
           <div className="link">
-            <p>Team</p>
+            Team
           </div>
           <div className="signin">
-            <p>SignIn</p>
+            SignIn
           </div>
         </div>
       );

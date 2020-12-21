@@ -2,13 +2,9 @@ import React from "react";
 import "./events.css";
 import Title from "./title.jsx";
 import EventCard from "./eventsCard.jsx";
-import Carousel from "react-elastic-carousel";
-const breakPoints = [
-  { width: 1, itemsToShow: 1 },
-  { width: 550, itemsToShow: 2, itemsToScroll: 2 },
-  { width: 768, itemsToShow: 3 },
-  { width: 1200, itemsToShow: 4 }
-];
+//import Carousel from "react-elastic-carousel";
+import Carousel from 'react-bootstrap/Carousel'
+
 
 function Events() {
   var noOf = document.getElementsByClassName("gridContainer")[0];
@@ -16,9 +12,24 @@ function Events() {
   return (
     <div className="eventsContainer">
       <Title title="Events" />
-
+      <Carousel className="test">
+        <Carousel.Item>
         <EventCard />
-    
+        </Carousel.Item>
+        <Carousel.Item>
+          <EventCard />
+        </Carousel.Item>
+        <Carousel.Item>
+          <EventCard />
+        </Carousel.Item>
+        <Carousel.Item>
+          <EventCard />
+        </Carousel.Item>
+        <Carousel.Item>
+          <EventCard />
+        </Carousel.Item>
+    </Carousel>
+
 
     </div>
   );

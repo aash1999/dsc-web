@@ -1,8 +1,9 @@
 
 .EventsCardContainer {
-  margin-top: 30px;
-  position: absolute;
-  z-index: 0;
+  margin-top: 15vh;
+  position: relative;
+  margin-left: 41vw;
+
   width: 250px;
   height: 50vh;
   border-style: solid;
@@ -14,30 +15,15 @@
   transition :all .5s ease-out;
 
 }
-.EventsCardContainer:hover{
 
-
-  z-index: 1;
-  margin-top :10px;
-
-
-
-}
-
-.EventsCardContainer:hover{
-  top:
-}
 .EventsCardImageContainer,
 .EventsCardImage {
   position: absolute;
-  z-index: 0;
   width: 100%;
   height: 20vh;
 
 }
-.EventsCardImageContainer {
 
-}
 
 
 .EventsCardImage {
@@ -45,7 +31,7 @@
 }
 .EventsCardTitle {
   position: absolute;
-  z-index: 0;
+
   color: white;
   width: 100%;
   height: 4vh;
@@ -58,7 +44,7 @@
 }
 .EventsCardDate ,.EventsCardDiscription,.EventsCardRegister{
   position: absolute;
-  z-index: 0;
+
   color: white;
   width: 100%;
   text-align: center;
@@ -80,7 +66,6 @@
   padding: 0px 5px 0px 5px;
 }
 .EventsCardRegister {
-
   top: 46vh;
   background-color: rgba(0, 0, 0, 0.3);
   border-radius: 6px;
