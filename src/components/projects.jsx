@@ -6,12 +6,10 @@ import EventCard from "./eventsCard.jsx";
 import Carousel from 'react-bootstrap/Carousel'
 
 
-function Events() {
-  var noOf = document.getElementsByClassName("gridContainer")[0];
-  console.log(noOf);
+function Projects() {
   return (
     <div className="eventsContainer">
-      <Title title="Events" />
+      <Title title="Projects" />
       <Carousel className="test" >
         <Carousel.Item>
         <EventCard />
@@ -36,4 +34,4 @@ function Events() {
   );
 }
 
-export default Events;
+export default Projects;
