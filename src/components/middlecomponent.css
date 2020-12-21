@@ -1,89 +1,39 @@
 
 .container-middle{
   width : 100%;
-  height : 100vh;
+  height : 50vh;
   margin: 0;
   padding: 0px;
-  background-color: #344557 ;
+  background-image: url("../assets/img/background3.jpg");
+
+  background-position: center;
   position: relative;
-  z-index: -1;
-
-
-
-}
-.backgroundImg{
-  position: absolute;
   z-index: -2;
-  width: 100%;
-  height: 100vh;
-  opacity: 0.1;
-}
-.title{
-  position: absolute;
-  width: 50%;
-  height :17%;
-
-
-}
-
-.xContainer{
-  position: absolute;
-  top:37%;
-  left:49%;
-  width: 40px;
-
-
-}
-
-.x{
-  font-family: "Inconsolata", monospace;;
-  font-size: 3rem;
-}
-
-.dscLogoContainer,.iiitdmkLogoContainer{
-  position: absolute;
-  width: 30%;
-  height :17%;
 
 
 
 }
-.dscLogoContainer{
-  top:30%;
-  left: 22%;
-  padding-top: 20px;
-}
-.iiitdmkLogoContainer{
-  top:30%;
-  left:62%;
-  padding-bottom: 50px;
 
-}
-.iiitdmkLogo{
-  width: 45%;
-  opacity: 0.8;
-
-}
-
-.dscLogo{
-  width: 60%;
-  opacity: 0.8;
-}
 @import url("https://fonts.googleapis.com/css?family=Lato:300");
-
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&family=Quicksand:wght@700&display=swap');
 .title{
   color : white;
-  top:60%;
-  left:25%;
-  font-size: 3rem;
-  font-family: "Inconsolata", monospace;
+  font-size: 4rem;
+  font-family: 'Quicksand', sans-serif;
   letter-spacing: 10px;
-  border-width: 3px;
-  border-style:solid;
-  width: auto;
-  padding: 2%;
+
+
+  width: 100%;
+  height: 100vh;
   border-radius: 4px;
   border-color: #707070;
+  position: relative;
+  z-index: 0;
+  top:10%;
+  padding-top: 150px;
+  text-align: center;
+  background-color: rgba(127,0,255,0.3)
+
 
 
 }

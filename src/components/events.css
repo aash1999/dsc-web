@@ -6,29 +6,3 @@
   top: 100vh;
   padding-top: 80px;
 }
-
-.gridContainer {
-  width: 350px;
-  height: 70%;
-  position: absolute;
-  z-index: 0;
-  top: 5%;
-  margin-left: 50%;
-  border-radius: 10px;
-  border-right-style: solid;
-  border-left-style: solid;
-  border-color: black;
-  border-width: 1px;
-  display: grid;
-  grid-template-rows: auto;
-  overflow: scroll;
-  justify-content: space-between;
-  padding-bottom: 50px;
-  transform: perspective(800px) rotateX(30deg)  ;
-}
-.gridItem {
-
-  padding-bottom: 200%;
-  padding-left: 50px;
-  width :250px;
-}

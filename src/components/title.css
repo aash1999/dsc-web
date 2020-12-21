@@ -1,8 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
 .subTitle {
   position: absolute;
   top: 0%;
-  font-size: 25vw;
+  font-size: 100px;
   margin-top: 0;
   padding-top: 0;
+  color: white;
+  font-family: 'Inconsolata', monospace;
+  width: 100%;
+  text-align: center;
 
 }
