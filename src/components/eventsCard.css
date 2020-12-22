@@ -28,6 +28,11 @@
 
 }
 
+.EventsCardContainer:hover{
+  margin-top: 12vh;
+  box-shadow: 15px 15px;
+
+}
 
 
 
@@ -69,8 +74,24 @@
   top: 28vh;
   height: 17vh;
   overflow: scroll;
-  padding: 0px 5px 0px 5px;
+  padding: 0px 7px 0px 7px;
+  overflow-x: hidden;
 }
+.EventsCardDiscription::-webkit-scrollbar {
+  width: 12px;
+  margin-right: 20px;             /* width of the entire scrollbar */
+}
+
+.EventsCardDiscription::-webkit-scrollbar-track {
+         /* color of the tracking area */
+}
+
+.EventsCardDiscription::-webkit-scrollbar-thumb {
+  background-color: red;    /* color of the scroll thumb */
+  border-radius: 20px;       /* roundness of the scroll thumb */
+  border: 3px solid rgba(0, 0, 0, 0.3);  /* creates padding around scroll thumb */
+}
+
 .EventsCardRegister {
   top: 45vh;
   background-color: rgba(0, 0, 0, 0.3);
