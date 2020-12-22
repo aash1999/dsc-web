@@ -10,25 +10,17 @@ import TeamCard from "./teamCard.jsx"
 const responsive = {
     0: { items: 1 },
     568: { items: 2 },
-    1024: { items: 3 },
+    1024: { items: 4 },
 };
 
 const items = [
     <TeamCard />,
-    <EventCard />,
-    <EventCard />,
-    <EventCard />,
-    <EventCard />,<EventCard />,
-    <EventCard />,
-    <EventCard />,
-    <EventCard />,
-    <EventCard />,
-    <EventCard />,<EventCard />,
-    <EventCard />,
-    <EventCard />,
-    <EventCard />,
-    <EventCard />,
-    <EventCard />,<EventCard />
+    <TeamCard />,
+    <TeamCard />,
+    <TeamCard />,
+    <TeamCard />,
+    <TeamCard />,
+
 ];
 
 
@@ -37,15 +29,15 @@ function Team() {
   return (
     <div className="teamContainer">
 
-   <TeamCard />
+       <Title title="Team..." />
+       <AliceCarousel
+        mouseTracking
+        items={items}
+        responsive={responsive}
+    />
     </div>
   );
 }
-//    <Title title="Team..." />
-//    <AliceCarousel
-//     mouseTracking
-//     items={items}
-//     responsive={responsive}
-// />
+
 
 export default Team;

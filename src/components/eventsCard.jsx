@@ -5,7 +5,7 @@ var date = new Date().toDateString();
 
 function EventCard(props){
   return(
-    <div className="EventsCardContainer draw-border ">
+    <div className="EventsCardContainer draw1-border ">
       <div className="EventsCardImageContainer">
         <img className="EventsCardImage" src={sampleImg} />
       </div>

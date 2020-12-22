@@ -2,7 +2,7 @@
 .ProjectsCardContainer {
   margin-top: 15vh;
   position: relative;
-  margin-left: 30%;
+  margin-left: 15%;
   width: 250px;
   height: 50vh;
   border-style: solid;
@@ -86,8 +86,8 @@
   color:black;
   background-color:#4285F4;
 }
-.draw-border::before,
-.draw-border::after {
+.draw2-border::before,
+.draw2-border::after {
   border: 0 solid transparent;
   box-sizing: border-box;
   content: '';
@@ -99,39 +99,36 @@
   right: 0;
 }
 
-.draw-border::before {
+.draw2-border::before {
   border-bottom-width: 4px;
   border-left-width: 4px;
   border-radius: 6px;
 
 }
 
-.draw-border::after {
+.draw2-border::after {
   border-top-width: 4px;
   border-right-width: 4px;
   border-radius: 6px;
 
 }
 
-.draw-border:hover {
-  color: #ffe593;
-}
 
-.draw-border:hover::before,
-.draw-border:hover::after {
-  border-color: #eb196e;
+.draw2-border:hover::before,
+.draw2-border:hover::after {
+  border-color: blue;
   -webkit-transition: border-color 0s, width 0.25s, height 0.25s;
   transition: border-color 0s, width 0.25s, height 0.25s;
   width: 100%;
   height: 100%;
 }
 
-.draw-border:hover::before {
+.draw2-border:hover::before {
   -webkit-transition-delay: 0s, 0s, 0.25s;
   transition-delay: 0s, 0s, 0.25s;
 }
 
-.draw-border:hover::after {
+.draw2-border:hover::after {
   -webkit-transition-delay: 0s, 0.25s, 0s;
   transition-delay: 0s, 0.25s, 0s;
 }

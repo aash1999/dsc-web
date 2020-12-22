@@ -5,7 +5,7 @@ var date = new Date().toDateString();
 
 function ProjectCard(props){
   return(
-    <div className="ProjectsCardContainer draw-border">
+    <div className="ProjectsCardContainer draw2-border">
       <div className="ProjectsCardImageContainer">
         <img className="ProjectsCardImage" src={sampleImg} />
       </div>

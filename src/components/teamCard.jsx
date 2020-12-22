@@ -1,35 +1,37 @@
 import React from "react";
 import "./teamCard.css";
+import avatar from "../assets/img/avatar.png"
+
 
 function TeamCard() {
   return (
-    <div class="card draw-border">
+    <div className="card draw-border">
       <img
-        src="https://lh3.googleusercontent.com/ytP9VP86DItizVX2YNA-xTYzV09IS7rh4WexVp7eilIcfHmm74B7odbcwD5DTXmL0PF42i2wnRKSFPBHlmSjCblWHDCD2oD1oaM1CGFcSd48VBKJfsCi4bS170PKxGwji8CPmehwPw=w200-h247-no"
+        src={avatar}
         alt="Person"
         class="card__image"
       ></img>
-      <p class="card__name">Lily-Grace Colley</p>
+      <p className="card__name">John Patrick</p>
 
-      <div class="card__designation">Web Developer</div>
+      <div className="card__designation">Web Developer</div>
 
-      <ul class="social-icons">
+      <ul className="social-icons">
         <li>
           <a href="#">
-            <i class="fa fa-github"></i>
+            <i className="fa fa-github"></i>
           </a>
         </li>
         <li>
           <a href="#">
-            <i class="fa fa-twitter"></i>
+            <i className="fa fa-twitter"></i>
           </a>
         </li>
         <li>
           <a href="#">
-            <i class="fa fa-linkedin"></i>
+            <i className="fa fa-linkedin"></i>
           </a>
         </li>
-        
+
       </ul>
     </div>
   );
