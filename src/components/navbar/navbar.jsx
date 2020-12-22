@@ -3,6 +3,7 @@ import logo from "../../assets/img/dsc_iiitk_logo_white.png";
 import ham from "../../assets/img/hamburger.png";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./navbar.css";
+import Typist from 'react-typist';
 const Example = (props) => {
 
 

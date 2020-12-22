@@ -32,10 +32,10 @@ const items = [
 
 
 function Events() {
-  
+
   return (
     <div className="eventsContainer">
-      <Title title="Events" />
+      <Title title="Events..." />
       <AliceCarousel
        mouseTracking
        items={items}

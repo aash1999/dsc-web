@@ -1,5 +1,5 @@
 
-.EventsCardContainer {
+.ProjectsCardContainer {
   margin-top: 15vh;
   position: relative;
   margin-left: 30%;
@@ -17,15 +17,15 @@
   transition-timing-function: linear;
 
 }
-.EventsCardContainer:hover{
+.ProjectsCardContainer:hover{
   margin-top: 13vh;
   box-shadow: 15px 15px;
 
 }
 
 
-.EventsCardImageContainer,
-.EventsCardImage {
+.ProjectsCardImageContainer,
+.ProjectsCardImage {
   position: absolute;
   width: 100%;
   height: 20vh;
@@ -34,10 +34,10 @@
 
 
 
-.EventsCardImage {
+.ProjectsCardImage {
   padding-left: 3px;
 }
-.EventsCardTitle {
+.ProjectsCardTitle {
   position: absolute;
 
   color: white;
@@ -50,7 +50,7 @@
   font-size: 1.3rem;
   color: #DB4437;
 }
-.EventsCardDate ,.EventsCardDiscription,.EventsCardRegister{
+.ProjectsCardDate ,.ProjectsCardDiscription,.ProjectsCardRegister{
   position: absolute;
 
   color: white;
@@ -60,20 +60,20 @@
 
 
 }
-.EventsCardDate {
+.ProjectsCardDate {
 
   top: 24vh;
   height: 4vh;
   color: #F4B400;
 }
-.EventsCardDiscription {
+.ProjectsCardDiscription {
 
   top: 28vh;
   height: 18vh;
   overflow: scroll;
   padding: 0px 5px 0px 5px;
 }
-.EventsCardRegister {
+.ProjectsCardRegister {
   top: 46vh;
   background-color: rgba(0, 0, 0, 0.3);
   border-radius: 6px;
@@ -81,8 +81,10 @@
   cursor: pointer;
   color:#0F9D58;
   padding: 5px;
+  
 }
-.EventsCardRegister:hover{
+.ProjectsCardRegister:hover{
+
   color:black;
   background-color:#4285F4;
 }

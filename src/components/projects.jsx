@@ -1,7 +1,7 @@
 import React from "react";
 import "./projects.css";
 import Title from "./title.jsx";
-import EventCard from "./eventsCard.jsx";
+import ProjectCard from "./projectCard.jsx";
 //import Carousel from "react-elastic-carousel";
 import Carousel from "react-bootstrap/Carousel";
 import AliceCarousel from 'react-alice-carousel';
@@ -13,27 +13,22 @@ const responsive = {
 };
 
 const items = [
-    <EventCard />,
-    <EventCard />,
-    <EventCard />,
-    <EventCard />,
-    <EventCard />,<EventCard />,
-    <EventCard />,
-    <EventCard />,
-    <EventCard />,
-    <EventCard />,
-    <EventCard />,<EventCard />,
-    <EventCard />,
-    <EventCard />,
-    <EventCard />,
-    <EventCard />,
-    <EventCard />,<EventCard />
+    <ProjectCard />,
+    <ProjectCard />,
+    <ProjectCard />,
+    <ProjectCard />,
+    <ProjectCard />,
+    <ProjectCard />,
+    <ProjectCard />,
+    <ProjectCard />,
+    <ProjectCard />,
+    <ProjectCard />,
 ];
 
 function Projects() {
   return (
     <div className="projectsContainer">
-      <Title title="Projects" />
+      <Title title="Projects..." />
       <AliceCarousel
        mouseTracking
        items={items}
