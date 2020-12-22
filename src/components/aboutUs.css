@@ -41,12 +41,14 @@
   background-color: white;
   box-shadow: 10px 10px;
   padding: 20px;
-}
-.designContainer:hover {
   animation: flying;
   animation-duration: 3s;
   animation-iteration-count: infinite;
   box-shadow: 10px 10px;
+}
+.designContainer:hover {
+  
+  animation: none;
 }
 
 
