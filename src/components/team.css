@@ -1,0 +1,15 @@
+.teamContainer {
+  width: 100%;
+  height: 100vh;
+  background-color: #29323c;
+  position: relative;
+  top: 100vh;
+  padding-top: 80px;
+}
+
+.customCarousel{
+  height :80vh;
+  position: relative;
+  z-index: 0;
+
+}

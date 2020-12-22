@@ -17,11 +17,7 @@
   transition-timing-function: linear;
 
 }
-.EventsCardContainer:hover{
-  margin-top: 13vh;
-  box-shadow: 15px 15px;
 
-}
 
 
 .EventsCardImageContainer,
@@ -31,6 +27,8 @@
   height: 20vh;
 
 }
+
+
 
 
 
@@ -69,20 +67,69 @@
 .EventsCardDiscription {
 
   top: 28vh;
-  height: 18vh;
+  height: 17vh;
   overflow: scroll;
   padding: 0px 5px 0px 5px;
 }
 .EventsCardRegister {
-  top: 46vh;
+  top: 45vh;
   background-color: rgba(0, 0, 0, 0.3);
   border-radius: 6px;
   height: 4vh;
   cursor: pointer;
   color:#0F9D58;
   padding: 5px;
+  width: 96%;
+  margin-left: 2%;
 }
 .EventsCardRegister:hover{
   color:black;
   background-color:#4285F4;
+}
+.draw-border::before,
+.draw-border::after {
+  border: 0 solid transparent;
+  box-sizing: border-box;
+  content: '';
+  pointer-events: none;
+  position: absolute;
+  width: 0rem;
+  height: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.draw-border::before {
+  border-bottom-width: 4px;
+  border-left-width: 4px;
+  border-radius: 6px;
+}
+
+.draw-border::after {
+  border-top-width: 4px;
+  border-right-width: 4px;
+    border-radius: 6px;
+}
+
+.draw-border:hover {
+  color: #ffe593;
+}
+
+.draw-border:hover::before,
+.draw-border:hover::after {
+  border-color: #eb196e;
+  -webkit-transition: border-color 0s, width 0.25s, height 0.25s;
+  transition: border-color 0s, width 0.25s, height 0.25s;
+  width: 100%;
+  height: 100%;
+}
+
+.draw-border:hover::before {
+  -webkit-transition-delay: 0s, 0s, 0.25s;
+  transition-delay: 0s, 0s, 0.25s;
+}
+
+.draw-border:hover::after {
+  -webkit-transition-delay: 0s, 0.25s, 0s;
+  transition-delay: 0s, 0.25s, 0s;
 }

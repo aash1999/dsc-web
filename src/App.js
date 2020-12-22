@@ -4,6 +4,7 @@ import MiddleComponent from "./components/middlecomponent.jsx"
 import AboutUs from "./components/aboutUs.jsx"
 import Events from "./components/events.jsx"
 import Projects from "./components/projects.jsx"
+import Team from "./components/team.jsx"
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <AboutUs />
       <Events />
       <Projects />
+      <Team />
 
 
     </div>
