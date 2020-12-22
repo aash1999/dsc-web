@@ -63,7 +63,22 @@
   font-family: "Inconsolata", monospace;
   width: 94%;
   height: 40vh;
+  overflow-x: hidden;
 
+}
+.content::-webkit-scrollbar {
+  width: 6px;
+  margin-right: 20px;             /* width of the entire scrollbar */
+}
+
+.content::-webkit-scrollbar-track {
+         /* color of the tracking area */
+}
+
+.content::-webkit-scrollbar-thumb {
+  background-color: #333333;    /* color of the scroll thumb */
+  border-radius: 20px;       /* roundness of the scroll thumb */
+  border: 3px solid rgba(0, 0, 0, 0.3);  /* creates padding around scroll thumb */
 }
 @keyframes blinking1 {
   50% {
