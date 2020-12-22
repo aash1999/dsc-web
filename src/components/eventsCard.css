@@ -84,7 +84,7 @@
 }
 .EventsCardRegister:hover{
   color:black;
-  background-color:#4285F4;
+  background-color:red;
 }
 .draw1-border::before,
 .draw1-border::after {

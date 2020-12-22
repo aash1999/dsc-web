@@ -27,6 +27,7 @@ const items = [
 function Team() {
 
   return (
+    <div>
     <div className="teamContainer">
 
        <Title title="Team..." />
@@ -35,6 +36,26 @@ function Team() {
         items={items}
         responsive={responsive}
     />
+    </div>
+    <div className="teamContainer">
+
+
+       <AliceCarousel
+        mouseTracking
+        items={items}
+        responsive={responsive}
+    />
+    </div>
+    <div className="teamContainer">
+
+       
+       <AliceCarousel
+        mouseTracking
+        items={items}
+        responsive={responsive}
+    />
+    </div>
+
     </div>
   );
 }
