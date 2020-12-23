@@ -10,24 +10,17 @@ const Example = (props) => {
   function signedInorNot() {
     if (signedIn === true) {
       return (
-
-
         <div className="accountIcon ">
           <img className="accountImg" src={account} />
         </div>
-
       );
     } else {
-      return (
-
-          <div className="signin">SignIn</div>
-
-      );
+      return <div className="signin">SignIn</div>;
     }
   }
 
   function CollapseElement() {
-    if (window.screen.width >= 959) {
+    if (window.screen.width >= 899) {
       return (
         <div className="links-container ">
           <div className="link">Home</div>
@@ -50,7 +43,7 @@ const Example = (props) => {
   return (
     <div className="navbar-container">
       <div className="image-container">
-        <img className="logo-dsc-desktop" src={logo} />
+
       </div>
       {CollapseElement()}
     </div>

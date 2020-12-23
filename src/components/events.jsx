@@ -6,6 +6,7 @@ import EventCard from "./eventsCard.jsx";
 import Carousel from 'react-bootstrap/Carousel'
 import AliceCarousel from 'react-alice-carousel';
 import 'react-alice-carousel/lib/alice-carousel.css';
+import Dropdown from 'react-css-dropdown'
 const responsive = {
     0: { items: 1 },
     568: { items: 2 },
@@ -35,7 +36,7 @@ function Events() {
 
   return (
     <div className="eventsContainer">
-      <Title title="Events..." />
+      <Title title="Events" />
       <AliceCarousel
        mouseTracking
        items={items}

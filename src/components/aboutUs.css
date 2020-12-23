@@ -6,33 +6,32 @@
 }
 @keyframes flying {
   0% {
-    top: 25%;
+    margin-top: 5px;
     box-shadow: 10px 10px;
   }
   25% {
-    top: 23%;
+    margin-top: 3px;
     box-shadow: 14px 14px;
   }
   50% {
-    top: 26%;
+    margin-top: 6px;
     box-shadow: 8px 8px;
   }
   75% {
-    top: 24%;
+    margin-top: 4px;
     box-shadow: 16px 16px;
   }
   100% {
-    top: 25%;
+    margin-top: 6px;
     box-shadow: 10px 10px;
   }
 }
 
 .designContainer {
   width: 50%;
-  height: 50vh;
-
+  height: 45vh;
   position: relative;
-  top: 25%;
+  top:26vh;
   left: 25%;
   border-style: solid;
   border-width: 20px;
@@ -47,7 +46,6 @@
   box-shadow: 10px 10px;
 }
 .designContainer:hover {
-  
   animation: none;
 }
 
@@ -59,7 +57,7 @@
   position: absolute;
 
   text-align: center;
-  font-size: 3vh;
+  font-size: 2vw;
   padding: 20px;
   overflow: scroll;
   font-family: "Inconsolata", monospace;

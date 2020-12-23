@@ -9,7 +9,7 @@ function TeamCard() {
       <img
         src={avatar}
         alt="Person"
-        class="card__image"
+        className="card__image"
       ></img>
       <p className="card__name">John Patrick</p>
 

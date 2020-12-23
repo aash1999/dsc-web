@@ -28,7 +28,7 @@ const items = [
 function Projects() {
   return (
     <div className="projectsContainer">
-      <Title title="Projects..." />
+      <Title title="Projects" />
       <AliceCarousel
        mouseTracking
        items={items}

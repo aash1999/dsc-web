@@ -30,7 +30,7 @@ function Team() {
     <div>
     <div className="teamContainer">
 
-       <Title title="Team..." />
+       <Title title="Team" />
        <AliceCarousel
         mouseTracking
         items={items}
@@ -48,7 +48,7 @@ function Team() {
     </div>
     <div className="teamContainer">
 
-       
+
        <AliceCarousel
         mouseTracking
         items={items}

@@ -8,12 +8,7 @@ import Typist from "react-typist"
 function MiddleComponent() {
   return (
     <div className="container-middle">
-
-
         <div className="title"><Typist avgTypingDelay={30} >/  DSC IIITDM Kurnool </Typist></div>
-
-
-
     </div>
   );
 }

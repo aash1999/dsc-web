@@ -1,12 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@500&display=swap');
+
 .subTitle {
   position: absolute;
   top: 0%;
-  font-size: 5rem;
+  font-size: 5vw;
   margin-top: 0;
   padding-top: 0;
   color: white;
-  font-family: 'Inconsolata', monospace;
+  font-family: 'Jura', monospace;
   width: 100%;
   text-align: left;
 

@@ -6,7 +6,7 @@ import Typist from 'react-typist';
 function AboutUs() {
   return (
     <div className="mainContainer">
-      <Title title="About Us..."  />
+      <Title title="About Us"  />
       <div className="designContainer">
 
           <div className="content">

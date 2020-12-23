@@ -7,23 +7,31 @@
   position: fixed;
   top: 0px;
   width: 100vw;
+  height: 80px;
   background-color: #333333;
   padding: 15px 0px 15px 5px;
-  z-index: 20;
+  z-index: 2;
 }
-
-.logo-dsc-desktop {
-  height: 5vh;
-  width: 22vw;
-  position: absolute;
-  top: 50%;
-}
-
 .image-container {
-  width: 40vw;
-  display: inline;
+  min-width:330px;
+  max-width: 350px;
+  min-height: 43px;
+  max-height: 48px;
+  width: 28%;
+
+  padding: 0;
+  margin: 0;
+  display: inline-block;
+
   position: relative;
+  background-image: url("../../assets/img/dsc_iiitk_logo_white.png");
+  background-position: center;
+  background-size: 100% 100%;
+
 }
+
+
+
 .links-container {
   display: inline;
   float: right;
