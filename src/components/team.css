@@ -1,7 +1,8 @@
 .teamContainer {
   width: 100%;
   height: 80vh;
-  background-color: #29323c;
+  background: linear-gradient(90deg, #161122 21px, transparent 1%) center, linear-gradient(#161122 21px, transparent 1%) center, #a799cc;
+	 background-size: 22px 22px;
   position: relative;
   top: 100vh;
   padding-top: 80px;

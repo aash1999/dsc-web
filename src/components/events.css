@@ -1,7 +1,9 @@
+
 .eventsContainer {
   width: 100%;
   height: 100vh;
-  background-color: #29323c;
+  background: linear-gradient(90deg, #161122 21px, transparent 1%) center, linear-gradient(#161122 21px, transparent 1%) center, #a799cc;
+	 background-size: 22px 22px;
   position: relative;
   top: 100vh;
   padding-top: 80px;
@@ -33,13 +35,14 @@
   padding: 6px;
   border-style: solid;
   border-radius: 10px;
-  border-color: black;
+  border-color: green;
   border-width: 3px;
   cursor: pointer;
 
 }
 .dropdown1-red{
   color: red;
+  border-color: red;
 }
 .dropDown{
   display: inline-block;
