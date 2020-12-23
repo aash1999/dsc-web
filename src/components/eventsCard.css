@@ -76,6 +76,7 @@
   overflow: scroll;
   padding: 0px 7px 0px 7px;
   overflow-x: hidden;
+
 }
 .EventsCardDiscription::-webkit-scrollbar {
   width: 4px;

@@ -20,3 +20,36 @@
   height: auto;
   color: red;
 }
+
+.dropdown1{
+  width: 150px;
+  color: green;
+  display: inline-block;
+  position: relative;
+  float: right;
+  top: -50px;
+  margin-right:30px;
+  text-align: center;
+  padding: 6px;
+  border-style: solid;
+  border-radius: 10px;
+  border-color: black;
+  border-width: 3px;
+  cursor: pointer;
+
+}
+.dropdown1-red{
+  color: red;
+}
+.dropDown{
+  display: inline-block;
+  width: 25px;
+  float: right;
+}
+.dropDown-invert{
+  display: inline-block;
+  width: 25px;
+  float: right;
+  -webkit-transform: scaleX(-1);
+ transform: scaleX(-1);
+}
