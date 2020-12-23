@@ -14,10 +14,9 @@
 
 .logo-dsc-desktop {
   height: 5vh;
-  width :22vw;
+  width: 22vw;
   position: absolute;
   top: 50%;
-
 }
 
 .image-container {
@@ -33,10 +32,9 @@
   text-align: center;
   height: 6vh;
   margin-right: 2%;
-
-
 }
-.link , .signin {
+.link,
+.signin {
   display: inline;
   position: relative;
   margin-left: 20px;
@@ -55,8 +53,6 @@
   color: #4285f4;
 }
 
-
-
 .signin {
   border-style: solid;
   border-width: 1px;
@@ -65,16 +61,36 @@
   border-radius: 5px;
 }
 
+.accountIcon {
+  display: inline;
+  position: relative;
+
+  top: 23%;
+  height: 3vh;
+  margin-left: 20px;
+
+  width: 200px;
+}
+.accountImg {
+  height: 4vh;
+
+
+}
+
+.accountImg:hover {
+  border-color: #f4b400;
+  cursor: pointer;
+  filter: invert(27%) sepia(51%) saturate(2878%) hue-rotate(346deg) brightness(104%) contrast(97%);
+}
+
 .signin:hover {
   border-color: #f4b400;
   cursor: pointer;
   color: #f4b400;
-
 }
-.signin p:hover{
+.signin p:hover {
   color: #f4b400;
   cursor: pointer;
-
 }
 
 .ham {
