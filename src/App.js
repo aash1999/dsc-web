@@ -5,6 +5,9 @@ import AboutUs from "./components/aboutUs.jsx"
 import Events from "./components/events.jsx"
 import Projects from "./components/projects.jsx"
 import Team from "./components/team.jsx"
+import Footer from "./components/footer/footer.jsx";
+
+import "./fontawesome"
 
 function App() {
   return (
@@ -15,8 +18,7 @@ function App() {
       <Events />
       <Projects />
       <Team />
-
-
+      <Footer />
     </div>
   )
 }
