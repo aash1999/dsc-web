@@ -1,6 +1,6 @@
 import React from "react";
 import "./teamCard.css";
-import avatar from "../assets/img/avatar.png"
+import avatar from "../../assets/img/avatar.png"
 
 
 function TeamCard() {

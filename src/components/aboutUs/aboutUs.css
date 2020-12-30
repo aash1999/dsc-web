@@ -71,9 +71,9 @@
   margin-right: 20px;             /* width of the entire scrollbar */
 }
 
-.content::-webkit-scrollbar-track {
-         /* color of the tracking area */
-}
+/* .content::-webkit-scrollbar-track {
+         color of the tracking area
+} */
 
 .content::-webkit-scrollbar-thumb {
   background-color: #333333;    /* color of the scroll thumb */

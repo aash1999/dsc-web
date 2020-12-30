@@ -1,10 +1,10 @@
 import React from "react"
 import CustomNavbar from "./components/navbar/navbar.jsx"
-import MiddleComponent from "./components/middlecomponent.jsx"
-import AboutUs from "./components/aboutUs.jsx"
-import Events from "./components/events.jsx"
-import Projects from "./components/projects.jsx"
-import Team from "./components/team.jsx"
+import MiddleComponent from "./components/middleComponent/middlecomponent.jsx"
+import AboutUs from "./components/aboutUs/aboutUs.jsx"
+import Events from "./components/events/events.jsx"
+import Projects from "./components/projects/projects.jsx"
+import Team from "./components/team/team.jsx"
 import Footer from "./components/footer/footer.jsx";
 
 import "./fontawesome"

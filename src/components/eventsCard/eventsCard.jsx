@@ -1,17 +1,17 @@
 import React from "react"
-import sampleImg from "../assets/img/dsc_logo.png";
-import "./projectCard.css"
+import sampleImg from "../../assets/img/dsc_logo.png";
+import "./eventsCard.css"
 var date = new Date().toDateString();
 
-function ProjectCard(props){
+function EventCard(props){
   return(
-    <div className="ProjectsCardContainer draw2-border">
-      <div className="ProjectsCardImageContainer">
-        <img className="ProjectsCardImage" src={sampleImg} />
+    <div className="EventsCardContainer draw1-border ">
+      <div className="EventsCardImageContainer">
+        <img className="EventsCardImage" src={sampleImg} alt="event"/>
       </div>
-      <div className="ProjectsCardTitle">Title</div>
-      <div className="ProjectsCardDate">{date}</div>
-      <div className="ProjectsCardDiscription">
+      <div className="EventsCardTitle">Title</div>
+      <div className="EventsCardDate">{date}</div>
+      <div className="EventsCardDiscription">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi at
         metus eget ex rutrum semper. Suspendisse et orci non mi egestas
         varius. Suspendisse potenti. Nunc ante lacus, tempus eu fermentum sed,
@@ -26,9 +26,9 @@ function ProjectCard(props){
         Proin placerat turpis sit amet malesuada sollicitudin. Cras auctor
         pharetra nisi, bibendum tincidunt odio euismod et.
       </div>
-      <div className="ProjectsCardRegister">View GitHub</div>
+      <div className="EventsCardRegister">Register</div>
     </div>
   )
 
 }
-export default ProjectCard
+export default EventCard

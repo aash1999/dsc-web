@@ -1,9 +1,7 @@
 import React from "react";
 import "./projects.css";
-import Title from "./title.jsx";
-import ProjectCard from "./projectCard.jsx";
-//import Carousel from "react-elastic-carousel";
-import Carousel from "react-bootstrap/Carousel";
+import Title from "../title/title.jsx";
+import ProjectCard from "../projectCard/projectCard.jsx";
 import AliceCarousel from 'react-alice-carousel';
 import 'react-alice-carousel/lib/alice-carousel.css';
 const responsive = {

@@ -79,9 +79,9 @@
   margin-right: 20px;             /* width of the entire scrollbar */
 }
 
-.ProjectsCardDiscription::-webkit-scrollbar-track {
-         /* color of the tracking area */
-}
+/* .ProjectsCardDiscription::-webkit-scrollbar-track {
+         color of the tracking area
+} */
 
 .ProjectsCardDiscription::-webkit-scrollbar-thumb {
   background-color: blue;    /* color of the scroll thumb */

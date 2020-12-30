@@ -1,5 +1,5 @@
 import React from "react";
-import Title from "./title.jsx"
+import Title from "../title/title.jsx"
 import "./aboutUs.css";
 import Typist from 'react-typist';
 

@@ -1,13 +1,11 @@
 import React ,{useState}from "react";
 import "./events.css";
-import Title from "./title.jsx";
-import EventCard from "./eventsCard.jsx";
-//import Carousel from "react-elastic-carousel";
-import Carousel from "react-bootstrap/Carousel";
+import Title from "../title/title.jsx";
+import EventCard from "../eventsCard/eventsCard.jsx";
 import AliceCarousel from "react-alice-carousel";
 import "react-alice-carousel/lib/alice-carousel.css";
-import Dropdown from "react-css-dropdown";
-import dropDownIcon from "../assets/img/right-arrow.svg";
+// import Dropdown from "react-css-dropdown";
+// import dropDownIcon from "../assets/img/right-arrow.svg";
 const responsive = {
   0: { items: 1 },
   568: { items: 2 },
@@ -39,7 +37,7 @@ function Events() {
 
   const [displayState,onDisplayState] = useState({message:"Present",icon:"dropDown",textColor:"dropdown1"})
   function toggleEvent(){
-    if(displayState.message == "Present"){
+    if(displayState.message === "Present"){
       onDisplayState({message:"Past",icon:"dropDown-invert",textColor:"dropdown1 dropdown1-red"})
 
     }else{
