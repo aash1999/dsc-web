@@ -1,9 +1,9 @@
 import React from "react";
 import "./team.css";
-import Title from "./title.jsx";
+import Title from "../title/title.jsx";
 import AliceCarousel from "react-alice-carousel";
 import "react-alice-carousel/lib/alice-carousel.css";
-import TeamCard from "./teamCard.jsx";
+import TeamCard from "../teamCard/teamCard.jsx";
 const responsive = {
   0: { items: 1 },
   568: { items: 2 },

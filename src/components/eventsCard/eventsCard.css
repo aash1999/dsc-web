@@ -83,9 +83,9 @@
   margin-right: 20px;             /* width of the entire scrollbar */
 }
 
-.EventsCardDiscription::-webkit-scrollbar-track {
-         /* color of the tracking area */
-}
+/* .EventsCardDiscription::-webkit-scrollbar-track {
+         color of the tracking area
+} */
 
 .EventsCardDiscription::-webkit-scrollbar-thumb {
   background-color: red;    /* color of the scroll thumb */
