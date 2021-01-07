@@ -1,17 +1,17 @@
 import React from "react";
 import Title from "../title/title.jsx"
-import "./aboutUs.css";
+import "./About.css";
 import Typist from 'react-typist';
 
-function AboutUs() {
+function About() {
   return (
     <div className="mainContainer">
       <Title title="About Us"  />
-      <div className="designContainer">
 
+      <div className="designContainer">
           <div className="content">
           <Typist avgTypingDelay={30}>
-          <Typist.Delay ms={100} />
+          <Typist.Delay ms={600} />
             Developer Student Clubs (DSC) is University based community group
             for students who are interested in Google Developer Technologies. As
             DSC Team, We teach students trending technologies such as Machine
@@ -26,4 +26,4 @@ function AboutUs() {
     </div>
   );
 }
-export default AboutUs;
+export default About;

@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:300");
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&family=Quicksand:wght@700&display=swap');
+
+.container-middle{
+  background-image: url("../../assets/img/background3.jpg");
+  background-position: center;
+  display: flex;
+  height : 100vh;
+  margin-left: 3rem;
+}
+
+.title{
+  /* background: linear-gradient(-45deg, rgba(236,110,173,0.3), rgba(52,148,230,0.3)); */
+  /* background-color: rgba(236,110,173,0.3); */
+  /* border-color: #707070; */
+  color : white;
+  font-size:5vw;
+  font-family: 'Quicksand', sans-serif;
+  /* height : 100vh; */
+  /* justify-content: center; */
+  letter-spacing: 10px;
+  /* width: 90%; */
+  /* height: 100vh; */
+  /* border-radius: 4px; */
+  margin: auto;
+  /* padding: auto; */
+  /* position: relative; */
+  /* z-index: 0; */
+  /* padding-top: 50vh; */
+  /* text-align: center; */
+}
