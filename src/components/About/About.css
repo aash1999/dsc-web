@@ -1,49 +1,48 @@
 .mainContainer {
-  width: 100%;
+  background-color: #145374;
+  display: flex;
+  flex-direction: column;
   height: 100vh;
-  background-color: #333333;
-  position: absolute;
+  margin-left: 3rem;
 }
 @keyframes flying {
   0% {
-    margin-top: 5px;
-    box-shadow: 10px 10px;
+    margin-top: 5.5rem;
+    box-shadow: 15px 15px;
   }
   25% {
-    margin-top: 3px;
-    box-shadow: 14px 14px;
+    margin-top: 4.5rem;
+    box-shadow: 19px 19px;
   }
   50% {
-    margin-top: 6px;
-    box-shadow: 8px 8px;
+    margin-top: 5.5rem;
+    box-shadow: 13px 13px;
   }
   75% {
-    margin-top: 4px;
-    box-shadow: 16px 16px;
+    margin-top: 4.5rem;
+    box-shadow: 21px 21px;
   }
   100% {
-    margin-top: 6px;
-    box-shadow: 10px 10px;
+    margin-top: 5.5rem;
+    box-shadow: 15px 15px;
   }
 }
 
 .designContainer {
-  width: 50%;
-  height: 50vh;
-  position: relative;
-  top:26vh;
-  left: 25%;
+  display: flex;
+  max-width: 50rem;
+  max-height: 20rem;
+  margin: 5rem 12rem;
   border-style: solid;
   border-width: 20px;
   border-radius: 6px;
-  border-color: black;
-  background-color: white;
+  border-color: #ee6f57;
+  background-color: #00334e;
   box-shadow: 10px 10px;
   padding: 20px;
   animation: flying;
   animation-duration: 3s;
   animation-iteration-count: infinite;
-  box-shadow: 10px 10px;
 }
 .designContainer:hover {
   animation: none;
@@ -53,11 +52,9 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Inconsolata&display=swap");
 .content {
-  color: black;
-  position: absolute;
-
+  color: #f6f5f5;
   text-align: center;
-  font-size: 2vw;
+  font-size: 1.5rem;
   padding: 20px;
   overflow: scroll;
   font-family: "Inconsolata", monospace;
