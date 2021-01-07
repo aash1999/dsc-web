@@ -1,109 +1,78 @@
-* {
-  margin: 0px;
-  padding: 0px;
+:root {
+  font-size: 19px;
+  --text-primary: #b6b6b6;
+  --text-secondary: #ececec;
+  --bg-primary: #23232e;
+  --bg-secondary: #141418;
+  --transition-speed: 500ms;
 }
 
-.navbar-container {
+.navbar {
   position: fixed;
-  top: 0px;
-  width: 100vw;
-  height: 80px;
-  background-color: #333333;
-  padding: 15px 0px 15px 5px;
-  z-index: 2;
+  background-color: var(--bg-primary);
+  width: 3rem;
+  height: 100vh;
+  transition: width 500ms ease;
 }
-.image-container {
-  min-width:330px;
-  max-width: 350px;
-  min-height: 43px;
-  max-height: 48px;
-  width: 28%;
 
+.navbar-nav {
+  list-style: none;
   padding: 0;
   margin: 0;
-  display: inline-block;
-
-  position: relative;
-  background-image: url("../../assets/img/dsc_iiitk_logo_white.png");
-  background-position: center;
-  background-size: 100% 100%;
-
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
 }
 
+.nav-item {
+  width: 100%;
+}
 
-
-.links-container {
-  display: inline;
-  float: right;
+.nav-item:last-child {
   margin-top: auto;
-  margin-bottom: auto;
-  text-align: center;
-  height: 6vh;
-  margin-right: 2%;
-}
-.link,
-.signin {
-  display: inline;
-  position: relative;
-  margin-left: 20px;
-  margin-right: 10px;
-  top: 28%;
-  padding: 1vh;
-  padding-bottom: 3.1vh;
-  color: white;
 }
 
-.link:hover {
-  border-bottom-width: 3px;
-  border-bottom-style: solid;
-  border-bottom-color: #4285f4;
-  cursor: pointer;
-  color: #4285f4;
+.nav-link {
+  align-items: center;
+  color: var(--text-primary);
+  display: flex;
+  filter: grayscale(100%) opacity(0.7);
+  height: 3rem;
+  text-decoration: none;
+  transition: var(--transition-speed);
 }
 
-.signin {
-  border-style: solid;
-  border-width: 1px;
-  border-color: white;
-  padding-bottom: 1vh;
-  border-radius: 5px;
+.nav-link>svg {
+  color: rgb(82, 64, 185);
+  margin: 0 0.35rem;
 }
 
-.accountIcon {
-  display: inline;
-  position: relative;
-
-  top: 23%;
-  height: 3vh;
-  margin-left: 20px;
-
-  width: 200px;
-}
-.accountImg {
-  height: 4vh;
-
-
+.nav-link>span {
+  display: none;
+  margin-left: 1.3rem;
+  visibility: hidden;
 }
 
-.accountImg:hover {
-  border-color: #f4b400;
-  cursor: pointer;
-  filter: invert(27%) sepia(51%) saturate(2878%) hue-rotate(346deg) brightness(104%) contrast(97%);
+.nav-link:hover {
+  filter: grayscale(0%) opacity(1);
+  background: var(--bg-secondary);
+  color: var(--text-secondary);
 }
 
-.signin:hover {
-  border-color: #f4b400;
-  cursor: pointer;
-  color: #f4b400;
-}
-.signin p:hover {
-  color: #f4b400;
-  cursor: pointer;
+.navbar:hover {
+  width: 10rem
 }
 
-.ham {
-  width: 70px;
-  fill: white;
-  margin: 10px;
-  margin-right: 15px;
+.navbar:hover .nav-link>span {
+  animation: show 0s 150ms forwards;
+  display: block;
+}
+
+@keyframes show {
+  to {
+    visibility: visible;
+  }
+
+  ;
 }

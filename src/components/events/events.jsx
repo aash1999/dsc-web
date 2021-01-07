@@ -35,22 +35,22 @@ const items = [
 
 function Events() {
 
-  const [displayState,onDisplayState] = useState({message:"Present",icon:"dropDown",textColor:"dropdown1"})
-  function toggleEvent(){
-    if(displayState.message === "Present"){
-      onDisplayState({message:"Past",icon:"dropDown-invert",textColor:"dropdown1 dropdown1-red"})
+  // const [displayState,onDisplayState] = useState({message:"Present",icon:"dropDown",textColor:"dropdown1"})
+  // function toggleEvent(){
+  //   if(displayState.message === "Present"){
+  //     onDisplayState({message:"Past",icon:"dropDown-invert",textColor:"dropdown1 dropdown1-red"})
 
-    }else{
-      onDisplayState({message:"Present",icon:"dropDown",textColor:"dropdown1"})
-    }
-  }
+  //   }else{
+  //     onDisplayState({message:"Present",icon:"dropDown",textColor:"dropdown1"})
+  //   }
+  // }
   return (
     <div className="eventsContainer">
       <Title title="Events" />
-      <div className= {displayState.textColor}onClick={toggleEvent}>
+      {/* <div className= {displayState.textColor}onClick={toggleEvent}>
         {displayState.message}
         
-      </div>
+      </div> */}
       <AliceCarousel mouseTracking items={items} responsive={responsive} />
     </div>
   );

@@ -1,7 +1,7 @@
 import React from "react";
-import "./middlecomponent.css";
+import "./Home.css";
 import Typist from "react-typist"
-function MiddleComponent() {
+function Home() {
   return (
     <div className="container-middle">
         <div className="title"><Typist avgTypingDelay={80} >/  DSC IIITDM Kurnool </Typist></div>
@@ -9,4 +9,4 @@ function MiddleComponent() {
   );
 }
 
-export default MiddleComponent;
+export default Home;
